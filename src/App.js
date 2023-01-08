@@ -1,33 +1,43 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { useEffect, useMemo, useState } from "react";
+
 const SECOND = 1000;
 const MINUTE = SECOND * 60;
 const HOUR = MINUTE * 60;
 const DAY = HOUR * 24;
+
 function App() {
   return (
     <div className="App">
       <div className="Title">
-        <h1>50 Days of JavaScript</h1>
+        <h1>#50DaysOfJavaScript</h1>
+        <p>Solve one question daily to ace 🎯 your next interview!</p>
       </div>
       <div className="container">
         <div className="container_1">
-          <Timer deadline="January, 30, 2023" />
+          <Timer deadline="January 20, 2023" />
         </div>
         <div className="container_2">
-          <h2>
-            Something Big update is coming by our team. Wait! We are launching
-            soon practice of 50 days of JavaScript
-          </h2>
-    
+          <h3>
+            Calling out 📣 participants, mentors, and communities for an open source initiative—join us to make a difference. More details to follow! 📩
+          </h3>
         </div>
-      
       </div>
       <div className="buttons">
-      <button className="btn">Become a mentor</button>
-      <button className="btn">Join as Participant</button>
-      <button className="btn">Collab as community partner</button>
+        <a href="https://forms.gle/zGHWps1t7heYbcrP7" target='_blank' rel="noreferrer">
+          <button className="btn">🍿 Become a mentor</button>
+        </a>
+        <a href="https://forms.gle/83ZKpF4S5VEqNG6P8" target='_blank' rel="noreferrer">
+          <button className="btn">🏄 Join as a participant</button>
+        </a>
+        <a href="https://forms.gle/oQAFMDofBtjeawhp8" target='_blank' rel="noreferrer">
+          <button className="btn">🚀 Collaborate as a community partner</button>
+        </a>
+      </div>
+      <div className="footer">
+        <code>
+          console.log('Code awesome shit with <a href="https://github.com/vinitshahdeo" target='_blank' rel="noreferrer">@vinitshahdeo</a> & friends!');
+        </code>
       </div>
     </div>
   );
