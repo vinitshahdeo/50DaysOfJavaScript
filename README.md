@@ -31,7 +31,7 @@ This is created using [create-react-app](create-react-app) and can be run locall
 
 ## Contributors
 
-- [@yashvi]
+- [@yashvi2001](https://github.com/yashvi2001)
 - [@vinitshahdeo](https://github.com/vinitshahdeo)
 
 
