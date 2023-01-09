@@ -6,13 +6,13 @@ Similar to the [Hactoberfest'21](https://vinitshahdeo.dev/hacktoberfest-2021) in
 
 > **Note** This repository hosts the launch website of **`#50DaysOfJavaScript`** challenge which is currently deployed on Netlify.
 
-[Join `#50DaysOfJavaScript`](https://tinyurl.com/50DaysOfJavaScript) ━ **Solve just a single coding challenge each day to improve your JavaScript skills!** This will start from Janurary 20, 2023. Begin any day post Jan 20 and stick for next 50 days to complete the challenge. **More details to follow!**.
+[Join `#50DaysOfJavaScript`](https://tinyurl.com/50DaysOfJavaScript) ━ **Solve just a single coding challenge each day to improve your JavaScript skills!** This will start from Janurary 20, 2023. Begin any day post Jan 20 and stick for next 50 days to complete the challenge. **More details to follow!**. ✨
 
 ## Quick links
 
-- ***[Join as a participant](https://forms.gle/83ZKpF4S5VEqNG6P8)***
-- ***[Become a mentor](https://forms.gle/zGHWps1t7heYbcrP7)***
-- ***[Collaborate as a community](https://forms.gle/oQAFMDofBtjeawhp8)***
+- ***[🏄 Join as a participant](https://forms.gle/83ZKpF4S5VEqNG6P8)***
+- ***[🍿 Become a mentor](https://forms.gle/zGHWps1t7heYbcrP7)***
+- ***[🚀 Collaborate as a community](https://forms.gle/oQAFMDofBtjeawhp8)***
 
 ## Similar initiative
 
