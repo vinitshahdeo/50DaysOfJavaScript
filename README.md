@@ -2,11 +2,15 @@
 
 Similar to the [Hactoberfest'21](https://vinitshahdeo.dev/hacktoberfest-2021) initiative, we're planning another community-led open-source initiative for helping the community level up their JavaScript coding skills by solving a non-trivial problem daily. None of the questions will be tricks ━ you don’t have to worry about handling big integers or knowing how to balance a red-black tree. Every problem will be based on what you do on a daily basis as a JavaScript developer.
 
-[![#50DaysOfJavaScipt](https://badgen.net/badge/%23/50DaysOfJavaScript?&scale=1.3)](https://tinyurl.com/50DaysOfJavaScript)
+[![#50DaysOfJavaScipt](https://badgen.net/badge/%23/50DaysOfJavaScript?&scale=1.3)](https://50daysofjavascript.netlify.app/)
 
 > **Note** This repository hosts the launch website of **`#50DaysOfJavaScript`** challenge which is currently deployed on Netlify.
 
 [Join `#50DaysOfJavaScript`](https://tinyurl.com/50DaysOfJavaScript) ━ **Solve just a single coding challenge each day to improve your JavaScript skills!** This will start from Janurary 20, 2023. Begin any day post Jan 20 and stick for next 50 days to complete the challenge. **More details to follow!**. ✨
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/32100f59-fa5f-49a1-89aa-40ecc48f002a/deploy-status)](https://app.netlify.com/sites/50daysofjavascript/deploys)
+
+**Learn more**: [50daysofjavascript.netlify.app](https://50daysofjavascript.netlify.app/)
 
 ## Quick links
 
