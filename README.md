@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# #50DaysOfJavaScript
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Similar to the [Hactoberfest'21](https://vinitshahdeo.dev/hacktoberfest-2021) initiative, we're planning another community-led open-source initiative for helping the community level up their JavaScript coding skills by solving a non-trivial problem daily. None of the questions will be tricks ━ you don’t have to worry about handling big integers or knowing how to balance a red-black tree. Every problem will be based on what you do on a daily basis as a JavaScript developer.
 
-## Available Scripts
+[![#50DaysOfJavaScipt](https://badgen.net/badge/%23/50DaysOfJavaScript?&scale=1.3)](https://tinyurl.com/50DaysOfJavaScript)
 
-In the project directory, you can run:
+> **Note** This repository hosts the launch website of **`#50DaysOfJavaScript`** challenge which is currently deployed on Netlify.
 
-### `npm start`
+[Join `#50DaysOfJavaScript`](https://tinyurl.com/50DaysOfJavaScript) ━ **Solve just a single coding challenge each day to improve your JavaScript skills!** This will start from Janurary 20, 2023. Begin any day post Jan 20 and stick for next 50 days to complete the challenge. **More details to follow!**. ✨
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Quick links
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- ***[🏄 Join as a participant](https://forms.gle/83ZKpF4S5VEqNG6P8)***
+- ***[🍿 Become a mentor](https://forms.gle/zGHWps1t7heYbcrP7)***
+- ***[🚀 Collaborate as a community](https://forms.gle/oQAFMDofBtjeawhp8)***
 
-### `npm test`
+## Similar initiative
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+A community-led initiative to help beginners get started with open-source during Hacktoberfest'21—[learn more](https://vinitshahdeo.dev/hacktoberfest-2021)!
 
-### `npm run build`
+[![Hacktoberfest'21](https://github-readme-stats.vercel.app/api/pin/?username=vinitshahdeo&repo=Hacktoberfest2021&theme=nord)](https://github.com/vinitshahdeo/Hacktoberfest2021)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Local Development
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```terminal
+npm i
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This is created using [create-react-app](create-react-app) and can be run locally in the development using the above commands. Open http://localhost:3000 to view it in your browser.
 
-### `npm run eject`
+## Contributors
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [@yashvi2001](https://github.com/yashvi2001)
+- [@vinitshahdeo](https://github.com/vinitshahdeo)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Support
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Please help us spread the registration link among your connections—**[https://tinyurl.com/50DaysOfJavaScript](https://tinyurl.com/50DaysOfJavaScript)**
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![Twitter Follow](https://img.shields.io/twitter/follow/Vinit_Shahdeo?style=social)](https://twitter.com/Vinit_Shahdeo)
