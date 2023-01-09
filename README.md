@@ -10,6 +10,8 @@ Similar to the [Hactoberfest'21](https://vinitshahdeo.dev/hacktoberfest-2021) in
 
 ## Quick links
 
+Calling out **participants**, **mentors**, and **communities** for an open-source initiative—join us to make a difference.
+
 - ***[🏄 Join as a participant](https://forms.gle/83ZKpF4S5VEqNG6P8)***
 - ***[🍿 Become a mentor](https://forms.gle/zGHWps1t7heYbcrP7)***
 - ***[🚀 Collaborate as a community](https://forms.gle/oQAFMDofBtjeawhp8)***
