@@ -14,6 +14,11 @@ Similar to the [Hactoberfest'21](https://vinitshahdeo.dev/hacktoberfest-2021) in
 - ***[🍿 Become a mentor](https://forms.gle/zGHWps1t7heYbcrP7)***
 - ***[🚀 Collaborate as a community](https://forms.gle/oQAFMDofBtjeawhp8)***
 
+
+```javascript
+console.log('#50DaysOfJavaScript—Code awesome shit with @vinitshahdeo & friends!');
+```
+
 ## Similar initiative
 
 A community-led initiative to help beginners get started with open-source during Hacktoberfest'21—[learn more](https://vinitshahdeo.dev/hacktoberfest-2021)!
