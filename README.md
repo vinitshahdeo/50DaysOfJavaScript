@@ -14,6 +14,10 @@ Similar to the [Hactoberfest'21](https://vinitshahdeo.dev/hacktoberfest-2021) in
 - ***[Become a mentor](https://forms.gle/zGHWps1t7heYbcrP7)***
 - ***[Collaborate as a community](https://forms.gle/oQAFMDofBtjeawhp8)***
 
+## Similar initiative
+
+[![Hacktoberfest'21](https://github-readme-stats.vercel.app/api/pin/?username=vinitshahdeo&repo=Hacktoberfest2021&theme=nord)](https://github.com/vinitshahdeo/Hacktoberfest2021)
+
 ## Local Development
 
 ```terminal
@@ -22,6 +26,11 @@ npm start
 ```
 
 This is created using [create-react-app](create-react-app) and can be run locally in the development using the above commands. Open http://localhost:3000 to view it in your browser.
+
+## Contributors
+
+- [@yashvi]
+- [@vinitshahdeo](https://github.com/vinitshahdeo)
 
 
 ## Support
