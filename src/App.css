@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 
+:root {
+  --primary: #333D79FF;
+  --secondary: #FAEBEFFF; 
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,8 +14,8 @@
 
 html,
 body {
-  background-color: #faebefff;
-  color: #333d79ff;
+  background-color: var(--secondary);
+  color:var(--primary); 
 }
 
 .App {
@@ -57,7 +62,7 @@ body {
 .box {
   font-weight: 300;
   padding: 40px;
-  color: #333d79ff;
+  color: var(--primary);
   font-weight: bold;
   font-size: 30px;
 }
@@ -74,11 +79,11 @@ body {
 .btn {
   border-radius: 8px;
   padding: 10px;
-  background-color: #333d79ff;
+  background-color: var(--primary);
   border: none;
   font-size: 1.2rem;
   font-weight: bolder;
-  color: #faebefff;
+  color: var(--secondary);
 }
 .btn:hover {
   cursor: pointer;
@@ -95,7 +100,7 @@ body {
 
 .text {
   font-size: 20px;
-  color: #333d79ff;
+  color: var(--primary);
   font-weight: 500;
   font-size: 20px;
 }
@@ -109,7 +114,7 @@ body {
 
 .footer a {
   text-decoration: underline;
-  color: #333d79ff;
+  color: var(--primary);
 }
 
 @media only screen and (max-width: 600px) {
@@ -212,4 +217,7 @@ body {
   .container_1 {
     width: 40%;
   }
+
+
+
 }
