@@ -43,7 +43,7 @@ npm i
 npm start
 ```
 
-This is created using [create-react-app](create-react-app) and can be run locally in the development using the above commands. Open http://localhost:3000 to view it in your browser.
+This is created using [create-react-app](create-react-app) and can be run locally in the development mode using the above commands. Open http://localhost:3000 to view it in your browser.
 
 ## Contributors
 
