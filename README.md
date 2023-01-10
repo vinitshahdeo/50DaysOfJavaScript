@@ -2,7 +2,7 @@
 <h1>#50DaysOfJavaScript</h1>
 <strong>Solve one question daily to ace 🎯 your next interview!</strong><br/>
 <a href='https://50daysofjavascript.netlify.app/'>50daysofjavascript.netlify.app</a> <br/><br/>
-<img src='https://forthebadge.com/images/badges/powered-by-coffee.svg' />
+<img src='https://forthebadge.com/images/badges/powered-by-coffee.svg' /> <a href='https://50daysofjavascript.netlify.app/'><img src='https://forthebadge.com/images/badges/check-it-out.svg' /></a>
 <br/><br/><br/>
 </div>
 
