@@ -2,8 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 
 :root {
-  --primary: #333D79FF;
-  --secondary: #FAEBEFFF; 
+  --primary: #333d79ff;
+  --secondary: #faebefff;
 }
 
 * {
@@ -15,7 +15,7 @@
 html,
 body {
   background-color: var(--secondary);
-  color:var(--primary); 
+  color: var(--primary);
 }
 
 .App {
@@ -162,6 +162,7 @@ body {
   .container_2 {
     height: auto;
     width: auto;
+    margin-bottom: 20px;
   }
 
   .box {
@@ -174,11 +175,12 @@ body {
 
   .buttons {
     position: initial;
+    margin-bottom: 20px;
   }
 
   .timer {
     flex-direction: row;
-    /* margin-bottom: 20px; */
+    margin-top: 20px;
   }
 
   /* Stack the buttons on top of each other */
@@ -217,7 +219,4 @@ body {
   .container_1 {
     width: 40%;
   }
-
-
-
 }
