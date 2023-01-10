@@ -15,11 +15,11 @@ function App() {
       </div>
       <div className="container">
         <div className="container_1">
-          <Timer deadline="January 20, 2023" />
+          <Timer deadline="January 23, 2023" />
         </div>
         <div className="container_2">
           <h3>
-            Calling out 📣 participants, mentors, and communities for an open source initiative—join us to make a difference. More details to follow! 📩
+            Calling out 📣 participants, mentors, and communities for an open source initiative—join us to make a difference. More details 📩 to follow!
           </h3>
         </div>
       </div>

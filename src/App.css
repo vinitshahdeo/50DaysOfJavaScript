@@ -37,7 +37,7 @@ body {
   align-items: center;
   display: flex;
   justify-content: center;
-  height: 70vh;
+  height: 60vh;
   margin-top: 8px;
   padding: 10px;
   text-align: center;
@@ -47,11 +47,11 @@ body {
   align-items: center;
   display: flex;
   /* display: flex; */
-  height: 70vh;
+  height: 60vh;
   margin-top: 8px;
   padding: 10px;
   text-align: center;
-  width: 550px;
+  width: 560px;
 }
 .container {
   display: flex;
@@ -160,6 +160,7 @@ body {
     border: none;
     font-size: 1.1rem;
     font-weight: 500;
+    border: 2px solid var(--primary);
     color: #faebefff;
   }
 
