@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 
 :root {
-  --primary: #333D79FF;
-  --secondary: #FAEBEFFF; 
+  --primary: #333d79ff;
+  --secondary: #faebefff;
 }
 
 * {
@@ -15,17 +15,17 @@
 html,
 body {
   background-color: var(--secondary);
-  color:var(--primary); 
+  color: var(--primary);
 }
 
 .App {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .Title {
   text-align: center;
   margin: 3px;
-  margin-top:  20px;
+  margin-top: 20px;
   /* font-family: 'Poppins', sans-serif; */
 }
 
@@ -35,7 +35,7 @@ body {
 
 .timer {
   align-items: center;
-  display:flex;
+  display: flex;
   display: flex;
   height: 70vh;
   margin-top: 8px;
@@ -43,10 +43,10 @@ body {
   text-align: center;
   width: auto;
 }
-.container_2{
+.container_2 {
   align-items: center;
-  display:flex;
   display: flex;
+  /* display: flex; */
   height: 70vh;
   margin-top: 8px;
   margin-left: 20px;
@@ -54,7 +54,7 @@ body {
   text-align: center;
   width: 550px;
 }
-.container{
+.container {
   display: flex;
   padding: 20px;
   justify-content: center;
@@ -67,7 +67,7 @@ body {
   font-size: 30px;
 }
 
-.buttons{
+.buttons {
   display: flex;
   justify-content: space-evenly;
   gap: 8px;
@@ -76,7 +76,7 @@ body {
   margin-left: 10%;
   margin-right: 10%;
 }
-.btn{
+.btn {
   border-radius: 8px;
   padding: 10px;
   background-color: var(--primary);
@@ -116,19 +116,122 @@ body {
   margin-bottom: 16px;
 }
 
-
-
 .footer a {
   text-decoration: underline;
   color: var(--primary);
   /* background-color: #333D79FF; */
   padding: 2px;
-  border: 2px dashed var(--secondary);;
-  border-radius: 4px; 
+  border: 2px dashed var(--secondary);
+  border-radius: 4px;
   transition: 0.8s;
 }
 
 .footer a:hover {
   opacity: 0.9;
   border: 2px dashed var(--primary);
+}
+
+@media only screen and (max-width: 600px) {
+  /* Make the font size smaller for smaller screens */
+  h3,
+  button,
+  code {
+    font-size: 14px;
+  }
+
+  /* Center the text in the container_2 div */
+  .container_2 {
+    text-align: center;
+    /* padding: 0 20px; */
+  }
+
+  /* .App {
+    height: 100vh;
+  } */
+
+  h1 {
+    margin-top: 50px;
+  }
+
+  .btn {
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    background-color: #333d79ff;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #faebefff;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .container_2 {
+    width: auto;
+  }
+
+  .timer,
+  .container_2 {
+    height: auto;
+    width: auto;
+    margin-bottom: 20px;
+    margin-left: 0;
+  }
+
+  .box {
+    font-weight: 300;
+    padding: 10px;
+    color: #333d79ff;
+    font-weight: bold;
+    font-size: 10px;
+  }
+
+  .buttons {
+    position: initial;
+    margin-bottom: 20px;
+  }
+
+  .timer {
+    flex-direction: row;
+    margin-top: 20px;
+  }
+
+  /* Stack the buttons on top of each other */
+  .buttons {
+    flex-direction: column;
+  }
+
+  /* Add some spacing between the buttons */
+  .buttons .btn {
+    margin-bottom: 10px;
+  }
+}
+
+/* Styles for larger screens */
+@media only screen and (min-width: 601px) {
+  /* Center the text in the Title div */
+  .Title {
+    text-align: center;
+  }
+
+  /* Make the font size larger for larger screens */
+
+  h3,
+  button,
+  code {
+    font-size: 18px;
+  }
+
+  /* Add some spacing between the container_1 and container_2 divs */
+  .container .container_1,
+  .container .container_2 {
+    margin: 20px;
+  }
+
+  /* Give the Timer component more space on larger screens */
+  .container_1 {
+    width: 40%;
+  }
 }
