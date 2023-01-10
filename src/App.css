@@ -83,11 +83,15 @@ body {
   border: none;
   font-size: 1.2rem;
   font-weight: bolder;
+  border: 2px solid var(--primary);
   color: var(--secondary);
+  transition: 0.3s;
 }
 .btn:hover {
   cursor: pointer;
-  opacity: 0.96; 
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  background-color: var(--secondary);
 }
 .col-4:last-child .box {
   border-right-color: transparent;
@@ -109,10 +113,22 @@ body {
   padding: 8px;
   text-align: center;
   font-weight: 600;
-  margin: 8px;
+  margin-bottom: 16px;
 }
+
+
 
 .footer a {
   text-decoration: underline;
   color: var(--primary);
+  /* background-color: #333D79FF; */
+  padding: 2px;
+  border: 2px dashed var(--secondary);;
+  border-radius: 4px; 
+  transition: 0.8s;
+}
+
+.footer a:hover {
+  opacity: 0.9;
+  border: 2px dashed var(--primary);
 }
