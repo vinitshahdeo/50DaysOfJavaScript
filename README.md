@@ -53,6 +53,6 @@ This is created using [create-react-app](create-react-app) and can be run locall
 
 ## Support
 
-Please help us spread the registration link among your connections—**[tinyurl.com/50DaysOfJavaScript](https://tinyurl.com/50DaysOfJavaScript)**
+Please help us spread the registration link among your connections—**[tinyurl.com/50DaysOfJavaScript](https://tinyurl.com/50DaysOfJavaScript)**. For any suggestions or feedback, please hit me up on [Twitter](https://twitter.com/Vinit_Shahdeo).
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/Vinit_Shahdeo?style=social)](https://twitter.com/Vinit_Shahdeo)
