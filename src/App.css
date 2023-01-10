@@ -82,7 +82,7 @@ body {
 }
 .btn:hover {
   cursor: pointer;
-  opacity: 0.98; 
+  opacity: 0.96; 
 }
 .col-4:last-child .box {
   border-right-color: transparent;
