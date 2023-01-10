@@ -12,7 +12,7 @@ Similar to the [Hactoberfest'21](https://vinitshahdeo.dev/hacktoberfest-2021) in
 
 > **Note** This repository hosts the launch website of **`#50DaysOfJavaScript`** challenge which is currently deployed on Netlify — [50daysofjavascript.netlify.app](https://50daysofjavascript.netlify.app/)
 
-[Join `#50DaysOfJavaScript`](https://tinyurl.com/50DaysOfJavaScript) ━ **Solve just a single coding challenge each day to improve your JavaScript skills!** This will start from Janurary 20, 2023. Begin any day post Jan 20 and stick for next 50 days to complete the challenge. **More details to follow!**. ✨
+[Join `#50DaysOfJavaScript`](https://tinyurl.com/50DaysOfJavaScript) ━ **Solve just a single coding challenge each day to improve your JavaScript skills!** This will start from Janurary 20, 2023. Begin any day post Jan 20 and stick for next 50 days to complete the challenge. **More details to follow!** ✨
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/32100f59-fa5f-49a1-89aa-40ecc48f002a/deploy-status)](https://app.netlify.com/sites/50daysofjavascript/deploys)
 
