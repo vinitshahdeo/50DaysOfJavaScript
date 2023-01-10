@@ -155,7 +155,7 @@ body {
 
   .timer,
   .container_2 {
-    height: 35vh;
+    height: auto;
     width: auto;
   }
 
@@ -167,9 +167,13 @@ body {
     font-size: 10px;
   }
 
+  .buttons {
+    position: initial;
+  }
+
   .timer {
-    flex-direction: column;
-    margin-bottom: 20px;
+    flex-direction: row;
+    /* margin-bottom: 20px; */
   }
 
   /* Stack the buttons on top of each other */
