@@ -25,13 +25,13 @@ function App() {
       </div>
       <div className="buttons">
         <a href="https://forms.gle/zGHWps1t7heYbcrP7" target='_blank' rel="noreferrer">
-          <button className="btn">🍿 Become a mentor</button>
+          <button className="btn">🍿 Register as a mentor</button>
         </a>
         <a href="https://forms.gle/83ZKpF4S5VEqNG6P8" target='_blank' rel="noreferrer">
           <button className="btn">🏄 Join as a participant</button>
         </a>
         <a href="https://forms.gle/oQAFMDofBtjeawhp8" target='_blank' rel="noreferrer">
-          <button className="btn">🚀 Collaborate as a community partner</button>
+          <button className="btn">🚀 Become a community partner</button>
         </a>
       </div>
       <div className="footer">
