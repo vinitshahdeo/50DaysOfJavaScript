@@ -116,15 +116,13 @@ body {
   margin-bottom: 16px;
 }
 
-
-
 .footer a {
   text-decoration: underline;
   color: var(--primary);
   /* background-color: #333D79FF; */
   padding: 2px;
-  border: 2px dashed var(--secondary);;
-  border-radius: 4px; 
+  border: 2px dashed var(--secondary);
+  border-radius: 4px;
   transition: 0.8s;
 }
 
@@ -179,6 +177,7 @@ body {
     height: auto;
     width: auto;
     margin-bottom: 20px;
+    margin-left: 0;
   }
 
   .box {
