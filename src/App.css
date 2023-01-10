@@ -52,6 +52,7 @@ body {
 .container{
   display: flex;
   padding: 20px;
+  justify-content: center;
 }
 .box {
   font-weight: 300;
