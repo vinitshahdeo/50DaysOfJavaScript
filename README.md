@@ -31,7 +31,7 @@ A community-led initiative to help beginners get started with open-source during
 
 [![Hacktoberfest'21](https://github-readme-stats.vercel.app/api/pin/?username=vinitshahdeo&repo=Hacktoberfest2021&theme=nord)](https://github.com/vinitshahdeo/Hacktoberfest2021)
 
-## Local Development
+## Local development
 
 ```terminal
 npm i
