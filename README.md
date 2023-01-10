@@ -1,4 +1,10 @@
-# #50DaysOfJavaScript
+<div align='center'>
+<h1>#50DaysOfJavaScript</h1>
+<strong>Solve one question daily to ace 🎯 your next interview!</strong><br/>
+<a href='https://50daysofjavascript.netlify.app/'>50daysofjavascript.netlify.app</a> <br/><br/>
+<img src='https://forthebadge.com/images/badges/powered-by-coffee.svg' />
+<br/><br/><br/>
+</div>
 
 Similar to the [Hactoberfest'21](https://vinitshahdeo.dev/hacktoberfest-2021) initiative, we're planning another community-led open-source initiative for helping the community level up their JavaScript coding skills by solving a non-trivial problem daily. None of the questions will be tricks ━ you don’t have to worry about handling big integers or knowing how to balance a red-black tree. Every problem will be based on what you do on a daily basis as a JavaScript developer.
 
