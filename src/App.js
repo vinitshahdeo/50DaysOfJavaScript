@@ -15,7 +15,7 @@ function App() {
       </div>
       <div className="container">
         <div className="container_1">
-          <Timer deadline="January 23, 2023" />
+          <Timer deadline="January 25, 2023" />
         </div>
         <div className="container_2">
           <h3>
