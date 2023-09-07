@@ -9,39 +9,74 @@ const DAY = HOUR * 24;
 function App() {
   return (
     <div className="App">
-      <div className="Title">
+      <header className="Header">
         <h1>#50DaysOfJavaScript</h1>
-        <p>Solve one question daily to ace 🎯 your next interview!</p>
-      </div>
-      <div className="container">
-        <div className="container_1">
+        <p>Solve one JavaScript challenge daily to level up your skills!</p>
+      </header>
+      <main className="Main">
+        <div className="TimerContainer">
           <Timer deadline="October 1, 2023" />
         </div>
-        <div className="container_2">
-          <h3>
-            Calling out 📣 participants, mentors, and communities for an open-source initiative—join us to make a difference. More details 📩 to follow!
-          </h3>
+        <div className="Overview">
+          <h1>What is <span class="magic"><span class="magic-text">#50DaysOfJavascript</span></span></h1>
+          <p>
+            #50DaysOfJavaScript is a community-driven open-source initiative
+            designed to help you become a better JavaScript developer. Each day,
+            we provide a practical JavaScript coding challenge to enhance your
+            skills.
+          </p>
+          <a
+            href="https://forms.gle/zGHWps1t7heYbcrP7"
+            target="_blank"
+            rel="noreferrer"
+            className="JoinButton Mentor"
+          >
+            🍿 Join as a Mentor
+          </a>
+          <a
+            href="https://forms.gle/83ZKpF4S5VEqNG6P8"
+            target="_blank"
+            rel="noreferrer"
+            className="JoinButton Participant"
+          >
+            🏄 Join as a Participant
+          </a>
+          <a
+            href="https://forms.gle/oQAFMDofBtjeawhp8"
+            target="_blank"
+            rel="noreferrer"
+            className="JoinButton Partner"
+          >
+            🚀 Become a Community Partner
+          </a>
         </div>
-      </div>
-      <div className="buttons">
-        <a href="https://forms.gle/zGHWps1t7heYbcrP7" target='_blank' rel="noreferrer">
-          <button className="btn">🍿 Register as a mentor</button>
-        </a>
-        <a href="https://forms.gle/83ZKpF4S5VEqNG6P8" target='_blank' rel="noreferrer">
-          <button className="btn">🏄 Join as a participant</button>
-        </a>
-        <a href="https://forms.gle/oQAFMDofBtjeawhp8" target='_blank' rel="noreferrer">
-          <button className="btn">🚀 Become a community partner</button>
-        </a>
-      </div>
-      <div className="footer">
-        <code>
-          console.log('Code awesome shit with <a href="https://github.com/vinitshahdeo" target='_blank' rel="noreferrer">@vinitshahdeo</a> & friends!');
-        </code>
-      </div>
+      </main>
+      <footer className="Footer">
+        <p>
+          Code awesome JavaScript with{" "}
+          <a
+            href="https://github.com/vinitshahdeo"
+            target="_blank"
+            rel="noreferrer"
+            className="FooterLink"
+          >
+            @vinitshahdeo
+          </a>{" "}
+          & friends! Share on Twitter:{" "}
+          <a
+            href="https://twitter.com/share?text=Join%20%2350DaysOfJavaScript%20and%20level%20up%20your%20JavaScript%20skills!%20%23JavaScript%20%23CodingChallenge%20%23OpenSource&url=https%3A%2F%2Fyour-landing-page-url.com"
+            target="_blank"
+            rel="noreferrer"
+            className="FooterLink"
+          >
+            Share
+          </a>
+        </p>
+      </footer>
     </div>
   );
 }
+
 export const Timer = ({ deadline = new Date().toString() }) => {
   const parsedDeadline = useMemo(() => Date.parse(deadline), [deadline]);
   const [time, setTime] = useState(parsedDeadline - Date.now());
@@ -56,20 +91,16 @@ export const Timer = ({ deadline = new Date().toString() }) => {
   }, [parsedDeadline]);
 
   return (
-    <div className="timer">
+    <div className="Timer">
       {Object.entries({
         Days: time / DAY,
         Hours: (time / HOUR) % 24,
         Minutes: (time / MINUTE) % 60,
         Seconds: (time / SECOND) % 60,
       }).map(([label, value]) => (
-        <div key={label} className="col-4">
-          <div className="box">
-            <p className="timetext">
-              {`${Math.floor(value)}`.padStart(2, "0")}
-            </p>
-            <span className="text">{label}</span>
-          </div>
+        <div key={label} className="TimerBox">
+          <p className="TimerText">{`${Math.floor(value)}`.padStart(2, "0")}</p>
+          <span className="TimerLabel">{label}</span>
         </div>
       ))}
     </div>
