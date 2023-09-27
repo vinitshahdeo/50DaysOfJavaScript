@@ -1,9 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 :root {
-  --primary: #333d79ff;
-  --secondary: #faebefff;
+  --primary: #fff;
+  --secondary: #0b0b0f;
 }
 
 * {
@@ -12,235 +11,418 @@
   padding: 0;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 html,
 body {
-  background-color: var(--secondary);
+  background: var(--secondary);
   color: var(--primary);
+  font-family: "Inter", sans-serif;
+  width: 100vw;
+  overflow-x: hidden;
+  position: relative;
+  z-index: -1;
 }
 
-.App {
-  font-family: "Source Sans Pro", sans-serif;
+.container {
+  padding: 1.6rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.Title {
+.title {
+  margin-top: 8rem;
   text-align: center;
-  margin: 3px;
-  margin-top: 20px;
-  /* font-family: 'Poppins', sans-serif; */
+  font-size: 6.4rem;
+  font-weight: 900;
 }
 
-.Title p {
+.description {
+  color: #898ca9;
+  text-align: center;
+  font-size: 2rem;
   font-weight: 400;
+  line-height: 130%;
+  margin-top: 2.2rem;
+  max-width: 80rem;
+}
+
+.join-button:link,
+.join-button:visited {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+
+  margin-top: 3.4rem;
+  padding: 1.4rem 3.3rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.5s;
+
+  border-radius: 1rem;
+  color: var(--primary);
+  border: none;
+  background: linear-gradient(245deg, #18c8ff 8.05%, #933ffe 86.9%);
+}
+
+.join-button:hover,
+.join-button:active {
+  box-shadow: 0px 0px 10px 6px rgba(69, 149, 254, 0.286);
 }
 
 .timer {
+  display: flex;
   align-items: center;
-  display: flex;
   justify-content: center;
-  height: 60vh;
-  margin-top: 8px;
-  padding: 10px;
-  text-align: center;
-  width: auto;
+  gap: 2.6rem;
+  margin-top: 8.2rem;
 }
-.container_2 {
-  align-items: center;
-  display: flex;
-  /* display: flex; */
-  height: 60vh;
-  margin-top: 8px;
-  padding: 10px;
-  text-align: center;
-  width: 560px;
-}
-.container {
-  display: flex;
-  padding: 20px;
-  justify-content: center;
-}
+
 .box {
-  font-weight: 300;
-  padding: 40px;
-  color: var(--primary);
-  font-weight: bold;
-  font-size: 30px;
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2.8rem;
+  border-radius: 2.2rem;
+  background: #1a1b23;
+}
+
+.timetext {
+  color: #fff;
+  text-align: center;
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+
+.text {
+  text-transform: uppercase;
+  color: #b982ff;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 .buttons {
   display: flex;
   justify-content: space-evenly;
-  gap: 8px;
-  position: relative;
-  bottom: 80px;
-  margin-left: 10%;
-  margin-right: 10%;
+  align-items: center;
+  gap: 3.6rem;
+  margin-top: 10rem;
 }
+
 .btn {
-  border-radius: 8px;
-  padding: 10px;
-  background-color: var(--primary);
+  border-radius: 1rem;
+  padding: 2rem;
+  background-image: linear-gradient(
+    to right,
+    #982dec,
+    #da8af8,
+    #a9c4f3,
+    #982dec
+  );
   border: none;
-  font-size: 1.2rem;
-  font-weight: bolder;
-  border: 2px solid var(--primary);
-  color: var(--secondary);
-  transition: 0.3s;
-}
-.btn:hover {
+  background-size: 200% auto;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  line-height: 130%;
+  font-size: 2rem;
+
+  transition: 0.5s;
   cursor: pointer;
-  color: var(--primary);
-  border: 2px solid var(--primary);
-  background-color: var(--secondary);
-}
-.col-4:last-child .box {
-  border-right-color: transparent;
+
+  background-size: 300% 100%;
+
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
-.box p {
-  font-size: calc(18px + 2vmin);
-  margin: 0;
+.btn:hover {
+  background-position: 100% 0;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
-.text {
-  font-size: 20px;
-  color: var(--primary);
-  font-weight: 500;
-  font-size: 20px;
+.btn:focus {
+  outline: none;
 }
 
 .footer {
-  padding: 8px;
+  margin-top: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer p {
+  color: #fff;
   text-align: center;
-  font-weight: 600;
-  margin-bottom: 16px;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 130%;
 }
 
-.footer a {
-  text-decoration: underline;
-  color: var(--primary);
-  /* background-color: #333D79FF; */
-  padding: 2px;
-  border: 2px dashed var(--secondary);
-  border-radius: 4px;
-  transition: 0.8s;
+.footer p a {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+  margin: 0 var(--spacing, 0px);
+  transition: margin 0.25s;
 }
 
-.footer a:hover {
-  opacity: 0.9;
-  border: 2px dashed var(--primary);
+.footer p a svg {
+  width: 76px;
+  height: 40px;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 7px) translateZ(0);
+  fill: none;
+  stroke: var(--stroke, #bbc1e1);
+  stroke-linecap: round;
+  stroke-width: 2px;
+  stroke-dasharray: var(--offset, 69px) 278px;
+  stroke-dashoffset: 361px;
+  transition: stroke 0.25s ease var(--stroke-delay, 0s), stroke-dasharray 0.35s;
 }
 
-@media only screen and (max-width: 600px) {
-  /* Make the font size smaller for smaller screens */
-  h3,
-  button,
-  code {
-    font-size: 14px;
+.footer p a svg:hover {
+  --spacing: 4px;
+  --stroke: #7d41e7;
+  --stroke-delay: 0.1s;
+  --offset: 180px;
+}
+
+.moon,
+.cube,
+.star-1,
+.star-2,
+.star-3,
+.bg-gradient-img-1,
+.bg-gradient-img-2 {
+  position: absolute;
+}
+
+.moon,
+.cube,
+.star-1,
+.star-2,
+.star-3 {
+  z-index: -1;
+}
+
+.moon {
+  top: 30%;
+  left: 88%;
+}
+
+.cube {
+  top: 65%;
+  right: 87%;
+}
+
+.star-1 {
+  top: 20%;
+  right: 85%;
+}
+
+.star-2 {
+  top: 10%;
+  left: 83%;
+}
+
+.star-3 {
+  top: 90%;
+  left: 88%;
+}
+
+.bg-gradient-img-1 {
+  bottom: 0%;
+  right: 0%;
+  z-index: -2;
+}
+
+.bg-gradient-img-2 {
+  top: 0%;
+  left: 0%;
+  z-index: -2;
+}
+
+@media only screen and (max-width: 924px) {
+  .title {
+    font-size: 5.2rem;
   }
 
-  /* Center the text in the container_2 div */
-  .container_2 {
-    text-align: center;
-    /* padding: 0 20px; */
+  .description {
+    font-size: 1.8rem;
   }
 
-  /* .App {
-    height: 100vh;
-  } */
-
-  h1 {
-    margin-top: 50px;
-  }
-
-  .btn {
-    border-radius: 5px;
-    width: 100%;
-    padding: 10px;
-    background-color: #333d79ff;
-    border: none;
-    font-size: 1.1rem;
-    font-weight: 500;
-    border: 2px solid var(--primary);
-    color: #faebefff;
-  }
-
-  .container {
-    flex-direction: column;
-  }
-
-  .container_2 {
-    width: auto;
-  }
-
-  .timer,
-  .container_2 {
-    height: auto;
-    width: auto;
-    margin-bottom: 20px;
-    margin-left: 0;
-  }
-
-  .box {
-    font-weight: 300;
-    padding: 10px;
-    color: #333d79ff;
-    font-weight: bold;
-    font-size: 10px;
-  }
-
-  .buttons {
-    position: initial;
-    margin-bottom: 20px;
+  .join-button {
+    font-size: 1.8rem;
   }
 
   .timer {
-    flex-direction: row;
-    margin-top: 20px;
+    gap: 2rem;
+    margin-top: 8.2rem;
   }
 
-  /* Stack the buttons on top of each other */
+  .box {
+    width: 16rem;
+    height: 16rem;
+    gap: 2.8rem;
+  }
+
+  .timetext {
+    font-size: 3.6rem;
+  }
+
+  .text {
+    font-size: 1.8rem;
+  }
+
   .buttons {
-    flex-direction: column;
-    margin-top: 10%;
+    gap: 2rem;
+    margin-top: 8rem;
   }
 
-  /* Add some spacing between the buttons */
-  .buttons .btn {
-    margin-bottom: 10px;
+  .btn {
+    font-size: 1.6rem;
+    padding: 1.8rem;
   }
 
-  .footer {
-    margin-top: 20%;
+  .footer p {
+    font-size: 1.6rem;
+    font-weight: 400;
   }
 
-  h3 {
-    font-size: medium;
+  .footer p a svg {
+    width: 62px;
+    height: 40px;
+    bottom: -10%;
+  }
+
+  .star-1,
+  .star-2 {
+    display: none;
+  }
+
+  .moon {
+    left: 83%;
   }
 }
 
-/* Styles for larger screens */
-@media only screen and (min-width: 601px) {
-  /* Center the text in the Title div */
-  .Title {
-    text-align: center;
+@media only screen and (max-width: 720px) {
+  .title {
+    font-size: 4.8rem;
   }
 
-  /* Make the font size larger for larger screens */
-
-  h3,
-  button,
-  code {
-    font-size: 18px;
+  .description {
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
+    font-size: 1.6rem;
   }
 
-  /* Add some spacing between the container_1 and container_2 divs */
-  .container .container_1,
-  .container .container_2 {
-    margin: 20px;
+  .join-button {
+    font-size: 1.6rem;
   }
 
-  /* Give the Timer component more space on larger screens */
-  .container_1 {
-    width: 40%;
+  .timer {
+    gap: 1.6rem;
+  }
+
+  .box {
+    width: 12rem;
+    height: 12rem;
+    gap: 1.6rem;
+  }
+
+  .timetext {
+    font-size: 2.6rem;
+  }
+
+  .text {
+    font-size: 1.4rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 1.8rem;
+    margin-top: 6rem;
+    width: fit-content;
+    align-items: stretch;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 548px) {
+  .title {
+    font-size: 3.2rem;
+  }
+
+  .box {
+    width: 10rem;
+    height: 10rem;
+    gap: 1.2rem;
+  }
+
+  .timetext {
+    font-size: 2rem;
+  }
+
+  .text {
+    font-size: 1.2rem;
+  }
+
+  .buttons {
+    gap: 1.6rem;
+  }
+
+  .btn {
+    font-size: 1.6rem;
+    padding: 1.6rem;
+  }
+
+  .star-3,
+  .moon {
+    display: none;
+  }
+
+  .footer {
+    margin-top: 6rem;
+  }
+}
+
+@media only screen and (max-width: 458px) {
+  .timer {
+    margin-top: 5.6rem;
+    gap: 1rem;
+  }
+
+  .box {
+    width: 9rem;
+    height: 9rem;
+  }
+
+  .buttons {
+    margin-top: 5.4rem;
   }
 }
