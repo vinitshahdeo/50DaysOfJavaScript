@@ -70,6 +70,9 @@ function App() {
       <img src="star-1.svg" alt="star-pattern-1" className="star-1" />
       <img src="star-2.svg" alt="star-pattern-2" className="star-2" />
       <img src="star-3.svg" alt="star-pattern-3" className="star-3" />
+      <img src="star-1.svg" alt="star-pattern-1" className="star-4" />
+      <img src="star-2.svg" alt="star-pattern-2" className="star-5" />
+
       <img
         src="bg-gradient-img-1.svg"
         alt="bg-gradient-img"
