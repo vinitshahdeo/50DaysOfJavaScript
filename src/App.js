@@ -53,7 +53,7 @@ function App() {
           <p>
             Share on{" "}
             <a
-              href="https://twitter.com/share?text=Join%20%2350DaysOfJavaScript%20&url=https%3A%2F%2F50daysofjavascript.netlify.app"
+              href="https://twitter.com/share?text=Unlock%20Your%20Coding%20Potential%20in%20Just%2050%20Days%20with%20JavaScript%20Magic!%20%F0%9F%9A%80%20Click%20The%20Link%20To%20Start%20Your%20Journey%20to%20JavaScript%20Mastery%3A%20%5B%20%2350DaysOfJavaScript%20&url=https%3A%2F%2F50daysofjavascript.netlify.app"
               target="_blank"
               rel="noreferrer"
             >
