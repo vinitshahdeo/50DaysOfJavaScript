@@ -1,5 +1,6 @@
 import "./App.css";
 import { useEffect, useMemo, useState } from "react";
+import GitHubButtons from "./components/GitHubButtons/GitHubButtons";
 
 const SECOND = 1000;
 const MINUTE = SECOND * 60;
@@ -10,6 +11,7 @@ function App() {
   return (
     <>
       <div className="container">
+        <GitHubButtons />
         <h1 className="title">#50DaysOfJavaScript</h1>
         <p className="description">
           A community-driven open-source initiative for elevating JavaScript
