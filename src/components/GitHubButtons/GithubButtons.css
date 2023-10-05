@@ -1,5 +1,5 @@
 .github_buttons {
-  font-size: 3rem;
+  font-size: 2.5rem;
   display: flex;
   justify-items: center;
   align-items: center;
@@ -24,8 +24,8 @@
 }
 
 .github_buttons__icon {
-  width: 28px;
-  height: 28px;
+  width: 24px;
+  height: 24px;
 }
 
 .github_buttons__text {
@@ -36,11 +36,11 @@
 
 @media only screen and (max-width: 720px) {
   .github_buttons {
-    font-size: 2.4rem;
+    font-size: 1.8rem;
   }
 
   .github_buttons__icon {
-    width: 21px;
-    height: 21px;
+    width: 18px;
+    height: 18px;
   }
 }
