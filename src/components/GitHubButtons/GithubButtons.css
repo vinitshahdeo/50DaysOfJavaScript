@@ -1,0 +1,46 @@
+.github_buttons {
+  font-size: 2.5rem;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  column-gap: 12px;
+}
+
+.github_buttons__link {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  column-gap: 6px;
+
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 12px;
+  padding-right: 12px;
+
+  border-radius: 2.2rem;
+  background: #1a1b23;
+
+  text-decoration: none;
+}
+
+.github_buttons__icon {
+  width: 24px;
+  height: 24px;
+}
+
+.github_buttons__text {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 720px) {
+  .github_buttons {
+    font-size: 1.8rem;
+  }
+
+  .github_buttons__icon {
+    width: 18px;
+    height: 18px;
+  }
+}
