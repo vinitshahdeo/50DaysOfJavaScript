@@ -26,11 +26,17 @@ function GitHubButtons() {
   function getRepoUrl() {
     return `//github.com/${settings.namepsace}/${settings.repo}/`;
   }
+  function getRepoStargazersUrl() {
+    return `//github.com/${settings.namepsace}/${settings.repo}/stargazers`;
+  }
+  function getRepoForkUrl() {
+    return `//github.com/${settings.namepsace}/${settings.repo}/fork`;
+  }
 
   return (
     <div className="github_buttons">
       <a
-        href={`${getRepoUrl()}`}
+        href={`${getRepoStargazersUrl()}`}
         className="github_buttons__link"
         target="_blank"
         rel="noreferrer"
@@ -43,7 +49,7 @@ function GitHubButtons() {
         <span className="github_buttons__text">{starCount}</span>
       </a>
       <a
-        href={`${getRepoUrl()}`}
+        href={`${getRepoForkUrl()}`}
         className="github_buttons__link"
         target="_blank"
         rel="noreferrer"
