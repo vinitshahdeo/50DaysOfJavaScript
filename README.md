@@ -11,11 +11,11 @@
   <br/><br/><br/>
 </div>
 
-Similar to the [Hactoberfest'21](https://vinitshahdeo.dev/hacktoberfest-2021) initiative, we're planning another community-led open-source initiative for helping the community level up their JavaScript coding skills by solving a non-trivial problem daily. None of the questions will be tricks ━ you don’t have to worry about handling big integers or knowing how to balance a red-black tree. Every problem will be based on what you do on a daily basis as a JavaScript developer.
+Similar to the [Hactoberfest'21](https://vinitshahdeo.dev/hacktoberfest-2021) initiative, we're planning another community-led open-source initiative to help the community level up their JavaScript coding skills by solving a non-trivial problem daily. None of the questions will be tricks ━ you don’t have to worry about handling big integers or knowing how to balance a red-black tree. Every problem will be based on what you do daily as a JavaScript developer.
 
 [![#50DaysOfJavaScipt](https://badgen.net/badge/%23/50DaysOfJavaScript?&scale=1.3)](https://50daysofjavascript.netlify.app/)
 
-[Join `#50DaysOfJavaScript`](https://tinyurl.com/50DaysOfJavaScript) ━ **Solve just a single coding challenge each day to improve your JavaScript skills!** This will tentatively start from **Jan 20, 2024**. Begin any day and stick for next 50 days to complete the challenge. **More details to follow!** ✨
+[Join `#50DaysOfJavaScript`](https://tinyurl.com/50DaysOfJavaScript) ━ **Solve just a single coding challenge each day to improve your JavaScript skills!** This will tentatively start from **Jan 20, 2024**. Begin any day and stick for the next 50 days to complete the challenge. **More details to follow!** ✨
 
 **Learn more**: [50daysofjavascript.netlify.app](https://50daysofjavascript.netlify.app/)
 
@@ -48,7 +48,7 @@ npm i
 npm start
 ```
 
-This is created using [create-react-app](create-react-app) and can be run locally in the development mode using the above commands. Open http://localhost:3000 to view it in your browser.
+This is created using [create-react-app](https://legacy.reactjs.org/docs/create-a-new-react-app.html) and can be run locally in the development mode using the above commands. Open http://localhost:3000 to view it in your browser.
 
 ## Contributors
 
