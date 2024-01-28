@@ -19,7 +19,8 @@ Similar to the [Hactoberfest'21](https://vinitshahdeo.dev/hacktoberfest-2021) in
 
 **Learn more**: [50daysofjavascript.netlify.app](https://50daysofjavascript.netlify.app/)
 
-> **Note** This repository hosts the launch website of **`#50DaysOfJavaScript`** challenge which is currently deployed on [Netlify](https://50daysofjavascript.netlify.app/). <br/><br/>
+> [!NOTE]
+> This repository hosts the launch website of **`#50DaysOfJavaScript`** challenge which is currently deployed on [Netlify](https://50daysofjavascript.netlify.app/). <br/><br/>
 > [![Netlify Status](https://api.netlify.com/api/v1/badges/32100f59-fa5f-49a1-89aa-40ecc48f002a/deploy-status)](https://app.netlify.com/sites/50daysofjavascript/deploys)
 
 ## Quick links
