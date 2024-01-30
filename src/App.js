@@ -15,7 +15,7 @@ function App() {
         <h1 className="title">#50DaysOfJavaScript</h1>
         <p className="description">
           A community-driven open-source initiative for elevating JavaScript
-          skills through daily, practical <a href="https://github.com/vinitshahdeo/JavaScript-Coding-Interview-Questions/blob/main/README.md#list-of-questions" target="_blank">coding challenges</a> tailored to
+          skills through daily, practical <a href="https://github.com/vinitshahdeo/JavaScript-Coding-Interview-Questions/blob/main/README.md#list-of-questions" target="_blank" rel="noreferrer">coding challenges</a> tailored to
           real-world tasks, led by a supportive global community of developers.
         </p>
         <a
