@@ -33,7 +33,7 @@ Calling out **participants**, **mentors**, and **communities** for an open-sourc
 
 
 ```javascript
-console.log('#50DaysOfJavaScript ━ Code awesome shit with @vinitshahdeo & friends!');
+console.log('#50DaysOfJavaScript ━ Code awesome stuffs with @vinitshahdeo & friends!');
 ```
 
 ## Similar initiative
