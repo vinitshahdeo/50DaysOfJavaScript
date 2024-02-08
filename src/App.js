@@ -1,6 +1,7 @@
 import "./App.css";
 import { useEffect, useMemo, useState } from "react";
 import GitHubButtons from "./components/GitHubButtons/GitHubButtons";
+import { TWITTER_INTENT_URL, MENTOR_URL, PARTICIPANT_URL, COMMUNITY_URL, REPO_URL, START_DATE } from "./constants";
 
 const SECOND = 1000;
 const MINUTE = SECOND * 60;
@@ -19,31 +20,31 @@ function App() {
           real-world tasks, led by a supportive global community of developers.
         </p>
         <a
-          href="https://forms.gle/83ZKpF4S5VEqNG6P8"
+          href={REPO_URL}
           target="_blank"
           rel="noreferrer"
           className="join-button"
         >
           Join Now
         </a>
-        <Timer deadline="February 14, 2024" />
+        <Timer deadline={START_DATE || "February 14, 2024"} />
         <div className="buttons">
           <a
-            href="https://forms.gle/83ZKpF4S5VEqNG6P8"
+            href={PARTICIPANT_URL}
             target="_blank"
             rel="noreferrer"
           >
             <button className="btn">Join as a Participant</button>
           </a>
           <a
-            href="https://forms.gle/oQAFMDofBtjeawhp8"
+            href={COMMUNITY_URL}
             target="_blank"
             rel="noreferrer"
           >
             <button className="btn">Become a Community Partner</button>
           </a>
           <a
-            href="https://forms.gle/zGHWps1t7heYbcrP7"
+            href={MENTOR_URL}
             target="_blank"
             rel="noreferrer"
           >
@@ -55,7 +56,7 @@ function App() {
           <p>
             Share on{" "}
             <a
-              href="https://twitter.com/share?text=Join%20%2350DaysOfJavaScript%20&url=https%3A%2F%2F50daysofjavascript.netlify.app"
+              href={TWITTER_INTENT_URL}
               target="_blank"
               rel="noreferrer"
             >

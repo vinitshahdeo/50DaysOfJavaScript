@@ -3,12 +3,12 @@ import "./GithubButtons.css";
 
 const settings = {
   namepsace: "vinitshahdeo",
-  repo: "50DaysOfJavaScript",
+  repo: "JavaScript-Coding-Interview-Questions",
 };
 
 function GitHubButtons() {
-  const [forkCount, setForkCount] = React.useState();
-  const [starCount, setStarCount] = React.useState();
+  const [forkCount, setForkCount] = React.useState(33);
+  const [starCount, setStarCount] = React.useState(95);
 
   React.useEffect(() => {
     function getCount(data, type) {
