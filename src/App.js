@@ -26,7 +26,7 @@ function App() {
         >
           Join Now
         </a>
-        <Timer deadline="February 16, 2024" />
+        <Timer deadline="February 21, 2024" />
         <div className="buttons">
           <a
             href="https://forms.gle/83ZKpF4S5VEqNG6P8"
