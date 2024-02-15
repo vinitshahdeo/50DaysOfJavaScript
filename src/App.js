@@ -15,35 +15,37 @@ function App() {
         <h1 className="title">#50DaysOfJavaScript</h1>
         <p className="description">
           A community-driven open-source initiative for elevating JavaScript
-          skills through daily, practical coding challenges tailored to
-          real-world tasks, led by a supportive global community of developers.
+          skills through daily, practical
+          <span className='problems'>
+            <a href="https://github.com/vinitshahdeo/JavaScript-Coding-Interview-Questions/blob/main/README.md#list-of-questions" target="_blank" rel="noreferrer">coding challenges</a>
+          </span> tailored to real-world tasks, led by a supportive global community of developers.
         </p>
         <a
-          href="https://forms.gle/83ZKpF4S5VEqNG6P8"
+          href="https://github.com/vinitshahdeo/JavaScript-Coding-Interview-Questions/blob/main/50DaysOfJavaScript/README.md"
           target="_blank"
           rel="noreferrer"
           className="join-button"
         >
-          Join Now
+          Learn More
         </a>
         <Timer deadline="February 21, 2024" />
         <div className="buttons">
           <a
-            href="https://forms.gle/83ZKpF4S5VEqNG6P8"
+            href="https://github.com/vinitshahdeo/JavaScript-Coding-Interview-Questions/blob/main/50DaysOfJavaScript/README.md#-how-can-you-join-the-challenge"
             target="_blank"
             rel="noreferrer"
           >
             <button className="btn">Join as a Participant</button>
           </a>
           <a
-            href="https://forms.gle/oQAFMDofBtjeawhp8"
+            href="https://github.com/vinitshahdeo/JavaScript-Coding-Interview-Questions/blob/main/50DaysOfJavaScript/docs/COMMUNITY.md"
             target="_blank"
             rel="noreferrer"
           >
             <button className="btn">Become a Community Partner</button>
           </a>
           <a
-            href="https://forms.gle/zGHWps1t7heYbcrP7"
+            href="https://github.com/vinitshahdeo/JavaScript-Coding-Interview-Questions/blob/main/50DaysOfJavaScript/docs/MENTOR.md"
             target="_blank"
             rel="noreferrer"
           >
