@@ -61,4 +61,4 @@ This is created using [create-react-app](https://legacy.reactjs.org/docs/create-
 
 Please help us spread the registration link among your connections—**[tinyurl.com/50DaysOfJavaScript](https://tinyurl.com/50DaysOfJavaScript)**. For any suggestions or feedback, please hit me up on [Twitter](https://twitter.com/Vinit_Shahdeo).
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/Vinit_Shahdeo?style=social)](https://twitter.com/Vinit_Shahdeo)
+[![Join #50DaysOfJavaScript](https://img.shields.io/badge/Join-%2350DaysOfJavaScript-EAD54D?logo=javascript&labelColor=31322E)](https://50daysofjavascript.netlify.app/) [![Twitter Follow](https://img.shields.io/twitter/follow/Vinit_Shahdeo?style=social)](https://twitter.com/Vinit_Shahdeo) 
